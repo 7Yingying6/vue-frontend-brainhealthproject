@@ -35,7 +35,7 @@ export default {
 
 <style scoped>
 .hero {
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 50%, #bbf7d0 100%);
   padding: 4rem 0;
   min-height: 70vh;
   display: flex;
@@ -75,7 +75,11 @@ export default {
 }
 
 .title-highlight {
-  color: #22c55e;
+  color: #16a34a;
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .hero-subtitle {
@@ -86,7 +90,7 @@ export default {
 }
 
 .cta-button {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #16a34a 0%, #22c55e 50%, #4ade80 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -98,12 +102,13 @@ export default {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 20px rgba(34, 197, 94, 0.4);
 }
 
 .cta-button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+  box-shadow: 0 8px 30px rgba(34, 197, 94, 0.6);
+  background: linear-gradient(135deg, #15803d 0%, #16a34a 50%, #22c55e 100%);
 }
 
 .button-arrow {

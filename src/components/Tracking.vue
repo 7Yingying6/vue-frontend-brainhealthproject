@@ -65,7 +65,7 @@ export default {
 
 <style scoped>
 .tracking-section {
-  background-color: #ffffff;
+  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 50%, #f0fdf4 100%);
   padding: 80px 0;
 }
 
@@ -113,24 +113,28 @@ export default {
 }
 
 .tracking-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(199, 238, 208, 0.3);
 }
 
 .tracking-card.orange {
-  background-color: #fff7ed;
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  border: 1px solid #f59e0b;
 }
 
 .tracking-card.green {
-  background-color: #f0fdf4;
+  background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+  border: 1px solid #22c55e;
 }
 
 .tracking-card.blue {
-  background-color: #eff6ff;
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  border: 1px solid #3b82f6;
 }
 
 .tracking-card.purple {
-  background-color: #faf5ff;
+  background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
+  border: 1px solid #8b5cf6;
 }
 
 .card-icon {
@@ -149,19 +153,27 @@ export default {
 }
 
 .orange-icon {
-  background-color: #f97316;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
 }
 
 .green-icon {
-  background-color: #22c55e;
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
 }
 
 .blue-icon {
-  background-color: #3b82f6;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }
 
 .purple-icon {
-  background-color: #a855f7;
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
 }
 
 .tracking-card h3 {

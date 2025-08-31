@@ -30,6 +30,6 @@ export default {
 <style scoped>
 .home-page {
   min-height: 100vh;
-  background: #f8fafc;
+  background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
 }
 </style>

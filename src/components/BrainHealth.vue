@@ -9,7 +9,7 @@
             <div class="benefit-item">
               <div class="check-icon">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill="#22c55e"/>
+                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill="#16a34a"/>
                 </svg>
               </div>
               <div class="benefit-content">
@@ -62,7 +62,7 @@
             <div class="source-info">
               <div class="source-icon">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <circle cx="12" cy="12" r="10" fill="#3b82f6"/>
+                  <circle cx="12" cy="12" r="10" fill="#16a34a"/>
                   <path d="M12 6v6l4 2" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </div>
@@ -94,7 +94,7 @@ export default {
 
 <style scoped>
 .brain-health-section {
-  background-color: #f8fafc;
+  background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 50%, #d1fae5 100%);
   padding: 80px 0;
 }
 
@@ -158,10 +158,11 @@ export default {
 }
 
 .research-card {
-  background-color: #ffffff;
+  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
   padding: 32px;
   border-radius: 16px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 25px rgba(34, 197, 94, 0.1);
+  border: 1px solid #bbf7d0;
   height: fit-content;
 }
 

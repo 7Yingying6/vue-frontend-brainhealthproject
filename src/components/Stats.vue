@@ -73,19 +73,19 @@ export default {
 }
 
 .stat-card {
-  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
   padding: 2rem;
   border-radius: 20px;
   text-align: center;
   transition: all 0.3s ease;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid #bbf7d0;
+  box-shadow: 0 4px 10px rgba(199, 238, 208, 0.2);
 }
 
 .stat-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 12px 30px rgba(34, 197, 94, 0.25);
+  background: linear-gradient(135deg, #16a34a 0%, #22c55e 50%, #4ade80 100%);
   color: white;
 }
 

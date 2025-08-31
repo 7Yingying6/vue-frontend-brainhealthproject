@@ -68,12 +68,12 @@ export default {
 
 <style scoped>
 .header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #C7EED0 0%, #A8E6CF 50%, #88D8A3 100%);
   padding: 1rem 0;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 15px rgba(199, 238, 208, 0.3);
 }
 
 .container {
@@ -103,7 +103,7 @@ export default {
 .logo-text {
   font-size: 1.5rem;
   font-weight: bold;
-  color: white;
+  color: #2d5016;
 }
 
 .nav-menu {
@@ -118,7 +118,7 @@ export default {
   display: flex;
   align-items: center;
   gap: 0.3rem;
-  color: white;
+  color: #2d5016;
   text-decoration: none;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
@@ -129,14 +129,16 @@ export default {
 
 .nav-link:hover,
 .nav-link.active {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.8);
+  color: #1a3d0a;
   transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(199, 238, 208, 0.4);
 }
 
 .nav-link img {
   width: 16px;
   height: 16px;
-  filter: brightness(0) invert(1);
+  filter: brightness(0) saturate(100%) invert(19%) sepia(100%) saturate(1000%) hue-rotate(80deg);
 }
 
 .nav-link span {
@@ -163,7 +165,7 @@ export default {
 .hamburger span {
   width: 25px;
   height: 3px;
-  background: white;
+  background: #2d5016;
   transition: all 0.3s ease;
   border-radius: 2px;
 }
@@ -185,13 +187,13 @@ export default {
   top: 100%;
   left: 0;
   right: 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #C7EED0 0%, #A8E6CF 50%, #88D8A3 100%);
   transform: translateY(-100%);
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
   border-radius: 0 0 15px 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(199, 238, 208, 0.3);
 }
 
 .mobile-menu.active {
