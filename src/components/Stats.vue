@@ -30,23 +30,23 @@ export default {
         {
           id: 1,
           icon: stat1Icon,
-          number: '85%',
-          title: 'Vitamin D Deficiency',
-          description: 'of adults worldwide have insufficient vitamin D levels'
+          number: '1+ Billion',
+          title: 'People with vitamin D deficiency',
+          description: 'worldwide'
         },
         {
           id: 2,
           icon: stat2Icon,
-          number: '42%',
-          title: 'Health Improvement',
-          description: 'of users see significant health improvements within 3 months'
+          number: '25%',
+          title: 'Of Australians are vitamin D',
+          description: 'deficient'
         },
         {
           id: 3,
           icon: stat3Icon,
-          number: '10K+',
-          title: 'Tests Completed',
-          description: 'vitamin D tests completed with personalized recommendations'
+          number: '17%',
+          title: 'Reduction in dementia risk with optimal',
+          description: 'levels'
         }
       ]
     }

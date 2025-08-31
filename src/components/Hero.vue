@@ -3,23 +3,21 @@
     <div class="container">
       <div class="hero-content">
         <div class="hero-text">
+
           <h1 class="hero-title">
-            <img src="@/assets/images/brain-icon.svg" alt="Brain" class="brain-icon">
-            Test Your Vitamin D Level
+            <span class="title-main">Protect Your Brain with</span>
+            <span class="title-highlight">Vitamin D</span>
           </h1>
           <p class="hero-subtitle">
-            Discover your vitamin D status and get personalized recommendations for optimal health.
-            <br>
-            &bull; Quick and easy testing
-            <br>
-            &bull; Expert analysis and insights
-            <br>
-            &bull; Personalized health recommendations
+            Research shows vitamin D deficiency can reduce brain volume and increase dementia risk. Track your vitamin D levels, sun exposure, and nutrition to protect your cognitive health.
           </p>
           <button class="cta-button">
-            Get Started Today
+            Test Your Vitamin D Level
             <span class="button-arrow">&rarr;</span>
           </button>
+          <p class="assessment-info">
+            Quick 5-question assessment &bull; Takes 2 minutes
+          </p>
         </div>
         <div class="hero-image">
           <img src="@/assets/images/hero-image.png" alt="Vitamin D Testing" class="hero-img">
@@ -61,21 +59,23 @@ export default {
   max-width: 500px;
 }
 
+
+
 .hero-title {
   font-size: 3rem;
   font-weight: bold;
-  color: #2d3748;
   margin-bottom: 1.5rem;
   line-height: 1.2;
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  flex-direction: column;
 }
 
-.brain-icon {
-  width: 60px;
-  height: 60px;
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+.title-main {
+  color: #2d3748;
+}
+
+.title-highlight {
+  color: #22c55e;
 }
 
 .hero-subtitle {
@@ -113,6 +113,13 @@ export default {
 
 .cta-button:hover .button-arrow {
   transform: translateX(5px);
+}
+
+.assessment-info {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 1rem;
+  font-weight: 500;
 }
 
 .hero-image {

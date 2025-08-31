@@ -1,6 +1,12 @@
 <template>
   <section class="tracking-section">
     <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Comprehensive Vitamin D Tracking</h2>
+        <p class="section-description">
+          Our website helps middle-aged Australians who work indoors monitor and improve their vitamin D levels for better brain health and cognitive protection.
+        </p>
+      </div>
       <div class="tracking-cards">
         <div class="tracking-card orange">
           <div class="card-icon orange-icon">
@@ -67,6 +73,26 @@ export default {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.section-description {
+  font-size: 1.125rem;
+  color: #6b7280;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 .tracking-cards {
