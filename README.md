@@ -1,5 +1,28 @@
-# Vue 3 + Vite
+# VitaminD Brain - Vitamin D Brain Health Website
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A responsive website focused on the importance of Vitamin D for brain health, featuring sun exposure tracking, food intake recording, and more.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Local Testing
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Visit http://localhost:5173
+```
+
+## Mobile Testing
+
+1. Ensure phone and computer are on the same WiFi network
+2. Start development server: `npm run dev -- --host`
+3. Access on mobile browser: `http://[Computer-IP]:5173`
+4. Or use QR code tools to generate quick access links
+
+## Tech Stack
+
+- Vue 3 + Vite
+- Responsive Design
+- Component Architecture
