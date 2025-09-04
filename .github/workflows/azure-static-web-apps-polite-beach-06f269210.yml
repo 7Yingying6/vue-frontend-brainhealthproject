@@ -45,10 +45,10 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_POLITE_BEACH_06F269210 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # For PR comments, etc.
           action: "upload"
-          app_location: "dist"    # ⬅️ 直接把 dist 当作站点根
+          app_location: "dist"    # 直接把 dist 当作站点根
           api_location: ""        # 没有后端函数就留空
-          output_location: ""     # ⬅️ 我们已手动构建，这里留空
-          skip_app_build: true    # ⬅️ 跳过内置构建
+          output_location: ""     # 已手动构建，这里留空
+          skip_app_build: true    # 跳过内置构建
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
