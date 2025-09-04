@@ -11,7 +11,7 @@
           <p class="hero-subtitle">
             Research shows vitamin D deficiency can reduce brain volume and increase dementia risk. Track your vitamin D levels, sun exposure, and nutrition to protect your cognitive health.
           </p>
-          <button class="cta-button">
+          <button class="cta-button" @click="goToQuestionnaire">
             Test Your Vitamin D Level
             <span class="button-arrow">&rarr;</span>
           </button>
@@ -29,7 +29,12 @@
 
 <script>
 export default {
-  name: 'Hero'
+  name: 'Hero',
+  methods: {
+    goToQuestionnaire() {
+      this.$router.push('/vitamin-d-questionnaire')
+    }
+  }
 }
 </script>
 

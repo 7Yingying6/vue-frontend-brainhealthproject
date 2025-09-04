@@ -8,13 +8,12 @@
           <span class="logo-text">VitaminD Brain</span>
         </div>
         <ul class="nav-menu">
-          <li><a href="#" class="nav-link active"><img src="@/assets/images/home-icon.svg" alt="Home"><span>Home</span></a></li>
-          <li><a href="#" class="nav-link"><img src="@/assets/images/sun-icon.svg" alt="Sun"><span>Sun Exposure</span></a></li>
+          <li><router-link to="/" class="nav-link" :class="{ active: $route.path === '/' }"><img src="@/assets/images/home-icon.svg" alt="Home"><span>Home</span></router-link></li>
+          <li><router-link to="/sun-exposure" class="nav-link"><img src="@/assets/images/sun-icon.svg" alt="Sun"><span>Sun Exposure</span></router-link></li>
           <li><a href="#" class="nav-link"><img src="@/assets/images/food-icon.svg" alt="Food"><span>Food Intake</span></a></li>
-          <li><a href="#" class="nav-link"><img src="@/assets/images/insights-icon.svg" alt="Insights"><span>Insights</span></a></li>
+          <li><router-link to="/health-impact" class="nav-link"><img src="@/assets/images/insights-icon.svg" alt="Health Impact"><span>Health Impact</span></router-link></li>
           <li><a href="#" class="nav-link"><img src="@/assets/images/garden-icon.svg" alt="Garden"><span>Garden</span></a></li>
           <li><a href="#" class="nav-link"><img src="@/assets/images/health-progress-icon.svg" alt="Health Progress"><span>Health Progress</span></a></li>
-          <li><a href="#" class="nav-link"><img src="@/assets/images/health-info-icon.svg" alt="Health Info"><span>Health Info</span></a></li>
         </ul>
       </nav>
 
@@ -34,13 +33,12 @@
       <!-- Mobile Menu -->
       <div class="mobile-menu" :class="{ active: isMobileMenuOpen }">
         <ul class="mobile-nav-menu">
-          <li><a href="#" class="nav-link active" @click="closeMobileMenu"><img src="@/assets/images/home-icon.svg" alt="Home">Home</a></li>
-          <li><a href="#" class="nav-link" @click="closeMobileMenu"><img src="@/assets/images/sun-icon.svg" alt="Sun">Sun Exposure</a></li>
+          <li><router-link to="/" class="nav-link" :class="{ active: $route.path === '/' }" @click="closeMobileMenu"><img src="@/assets/images/home-icon.svg" alt="Home">Home</router-link></li>
+          <li><router-link to="/sun-exposure" class="nav-link" @click="closeMobileMenu"><img src="@/assets/images/sun-icon.svg" alt="Sun">Sun Exposure</router-link></li>
           <li><a href="#" class="nav-link" @click="closeMobileMenu"><img src="@/assets/images/food-icon.svg" alt="Food">Food Intake</a></li>
-          <li><a href="#" class="nav-link" @click="closeMobileMenu"><img src="@/assets/images/insights-icon.svg" alt="Insights">Insights</a></li>
+          <li><router-link to="/health-impact" class="nav-link" @click="closeMobileMenu"><img src="@/assets/images/insights-icon.svg" alt="Health Impact">Health Impact</router-link></li>
           <li><a href="#" class="nav-link" @click="closeMobileMenu"><img src="@/assets/images/garden-icon.svg" alt="Garden">Garden</a></li>
           <li><a href="#" class="nav-link" @click="closeMobileMenu"><img src="@/assets/images/health-progress-icon.svg" alt="Health Progress">Health Progress</a></li>
-          <li><a href="#" class="nav-link" @click="closeMobileMenu"><img src="@/assets/images/health-info-icon.svg" alt="Health Info">Health Info</a></li>
         </ul>
       </div>
     </div>
